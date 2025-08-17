@@ -1,4 +1,4 @@
-# Redes Neurais e Proteômica: Aplicando IA na Descoberta de Tratamentos para o Câncer de Mama
+# Aitheron: Inteligência Artificial para Oncologia de Precisão
 
 <br>
 
@@ -11,21 +11,20 @@
 
 > [!NOTE]
 >
-> ## FAQ - Redes Neurais e Proteômica:
+> ## FAQ - Aitheron: Inteligência Artificial para Oncologia de Precisão
 >
-> [Informações Gerais do Projeto](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica)
+> [Informações Gerais do Projeto](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki)
 >
-> [Especificação Técnica](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Especifica%C3%A7%C3%B5es-T%C3%A9cnicas)
+> [Base de Dados e Aspectos Éticos](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Base-de-dados-e-Aspectos-%C3%89ticos-da-Pesquisa)
 >
-> [Base de Dados](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Base-de-Dados)
+> [Entendendo o BRCA1 e BRCA2](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Entendendo-o-BRCA-e-BRCA2)
 >
-> [Requisitos do Projeto](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Requisitos-do-Projeto)
+> [Genoma Germinativo](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Genoma-Germinativo)
 >
-> [Modelos de IA](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Modelos-de-Intelig%C3%AAncia-Artificial)
+> [Modelos de Inteligência Artificial](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Modelos-de-Intelig%C3%AAncia-Artificial)
 >
-> [Estudos Cientificos](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Estudos-Cient%C3%ADficos)
->
-> [Testes de Software](https://github.com/Marlon-Souza16/Redes-Neurais-e-Proteomica/wiki/Testes-de-Software)
+> [Tipos de Mutações em BRCA1/2](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Tipos-de-Muta%C3%A7%C3%B5es-em-BRCA1-2)
+
 
 
 # Resumo
@@ -69,7 +68,3 @@
 - [Dados Cancer de mama](http://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 - [BRCA1 and BRCA2: different roles in a common pathway of genome protection](https://pmc.ncbi.nlm.nih.gov/articles/PMC4972490/)
 - [Artificial intelligence-based recognition for variant pathogenicity of BRCA1 using AlphaFold2-predicted structures](https://pmc.ncbi.nlm.nih.gov/articles/PMC9800725/)
-
-## 4. Avaliações de Professores
-
-Adicionar três páginas no final do RFC para que os Professores escolhidos possam fazer suas considerações e q
