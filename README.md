@@ -23,7 +23,7 @@
 >
 > [Modelos de Inteligência Artificial](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Modelos-de-Intelig%C3%AAncia-Artificial)
 >
-> [Tipos de Mutações em BRCA1/2](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Tipos-de-Muta%C3%A7%C3%B5es-em-BRCA1-2)
+> [Tipos de Mutações em BRCA1/2](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Tipos-de-Muta%C3%A7%C3%B5es-em-BRCA1-e-BRCA2)
 
 
 
