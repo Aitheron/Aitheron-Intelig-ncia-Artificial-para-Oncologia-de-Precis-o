@@ -26,21 +26,21 @@
 > [Tipos de Mutações em BRCA1/2](https://github.com/Aitheron/Aitheron-Inteligencia-Artificial-para-Oncologia-de-Precisao/wiki/Tipos-de-Muta%C3%A7%C3%B5es-em-BRCA1-e-BRCA2)
 
 
-
-# Resumo
-
-
 <div align='justify'
 
-&nbsp;&nbsp;&nbsp;&nbsp; O presente trabalho propõe o uso de ferramentas de Inteligência Artificial (IA), em especial redes neurais artificiais, para analisar combinações de proteínas e aminoácidos que possam contribuir para o desenvolvimento de novas estratégias terapêuticas no tratamento do câncer de mama. Fundamentado em bioquímica estrutural, química orgânica, proteômica e oncologia, o projeto explora os recentes avanços no mapeamento das estruturas proteicas, como os proporcionados pela AlphaFold — que, em 2020, utilizando IA, foi capaz de auxiliar na catalogação de pouco mais de 200 milhões de proteínas - Praticamente todo o reino animal -, em contraste às cerca de 150 mil identificadas até 2015 após seis décadas de pesquisa por meio de métodos convencionais. Tendo isso em vista, espera-se utilizar IA para analisar combinações de proteínas, e assim, contribuir para um tratamento mais eficaz, ampliando as perspectivas terapêuticas no combate ao câncer de mama.
+## Resumo
+
+&nbsp;&nbsp;&nbsp;&nbsp;Este projeto aplica técnicas de Inteligência Artificial à análise de variantes nos genes BRCA1/BRCA2 no contexto do câncer de mama. Serão desenvolvidos dois modelos de Inteligência Artificial (IA): (i) um classificador supervisionado para rotular variantes (patogênica, benigna ou de significado incerto) e (ii) um modelo probabilístico que estima o potencial patogênico de cada variante. A base de dados será consolidada a partir de ClinVar e dbSNP, normalizada para GRCh38 e enriquecida por anotações obtidas via APIs do Ensembl e por informações estruturais do UniProt, com uso de recursos como AlphaFold quando pertinente. As representações combinam atributos tabulares (coordenadas, tipo e consequência, metadados de curadoria) e informações derivadas de sequência (janelas de DNA/proteína). O segundo modelo enfatiza o impacto funcional considerando posição e transcrito afetados, tipo de evento (missense, nonsense, frameshift, alterações de splicing) e efeito esperado na proteína; eventos truncantes e alterações com perda de função tendem a elevar a probabilidade prevista. O desempenho será avaliado com métricas apropriadas e calibração de probabilidades, visando priorização interpretável de variantes e um fluxo reprodutível útil à pesquisa translacional em oncologia de precisão.
+
+Palavras-chave: BRCA1; BRCA2; câncer de mama; variantes genéticas; inteligência artificial.
 
 ## 1. Introdução
 
-&nbsp;&nbsp;&nbsp;&nbsp;O câncer de mama representa um dos maiores desafios na área de oncologia devido à sua alta incidência e complexidade biológica. Nesse contexto, a aplicação de ferramentas de Inteligência Artificial (IA) tem se mostrado promissora para o avanço na compreensão e no tratamento da doença. O presente trabalho propõe o uso de IA, em especial redes neurais artificiais, para analisar combinações de proteínas e aminoácidos com potencial terapêutico na cura ou controle do câncer de mama. A iniciativa se apoia nos fundamentos de bioquímica estrutural, química orgânica e proteômica, áreas que permitem investigar em profundidade as estruturas, funções e reatividade química desses biomoléculas.
- 
-&nbsp;&nbsp;&nbsp;&nbsp;A base conceitual do projeto reside, em parte, nos resultados obtidos pela AlphaFold, que demonstrou o poder da IA na elucidação de estruturas proteicas. Até 2015, depois de mais de seis décadas de pesquisa, haviam sido catalogadas apenas cerca de 150 mil proteínas por métodos experimentais convencionais. Em 2020, graças aos avanços trazidos pela IA desenvolvida pela AlphaFold, foi possível catalogar mais de 200 milhões de proteínas, abrangendo quase todo o reino animal. Esses números evidenciam o potencial transformador das soluções computacionais na pesquisa biomédica.
- 
-&nbsp;&nbsp;&nbsp;&nbsp;Assim, a presente proposta busca integrar conhecimentos de oncologia, proteômica e nutrição clínica avançada para desenvolver modelos preditivos capazes de sugerir novas estratégias terapêuticas ou complementares ao tratamento do câncer de mama. A relevância e a originalidade do projeto residem em explorar as possibilidades abertas pela IA para acelerar a identificação de proteínas e aminoácidos promissores, contribuindo para o desenvolvimento de tratamentos personalizados e mais eficazes na área oncológica.
+&nbsp;&nbsp;&nbsp;&nbsp;O câncer de mama permanece um desafio relevante em saúde pública, exigindo abordagens que integrem conhecimento biológico e ferramentas computacionais. Neste contexto, propõe-se o uso de técnicas de Inteligência Artificial voltadas à análise de variantes nos genes BRCA1/BRCA2, com foco na classificação de patogenicidade e na estimativa probabilística de potencial patogênico.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A base de dados será consolidada a partir de fontes públicas como ClinVar e dbSNP, normalizada para GRCh38 e enriquecida com anotações obtidas por meio das APIs do Ensembl, além de informações estruturais provenientes de recursos como UniProt e, quando pertinente, modelos de estrutura de proteínas. As representações empregadas combinam atributos tabulares (coordenadas, tipo e consequência da variante, metadados de curadoria) e informações derivadas de sequência, de modo a capturar sinais clínicos, posicionais e biológicos relevantes.
+
+&nbsp;&nbsp;&nbsp;&nbsp;O trabalho se organiza em dois modelos complementares. O primeiro realiza a classificação supervisionada de variantes em categorias como patogênica, benigna ou de significado incerto. O segundo estima a probabilidade de potencial patogênico considerando o contexto da mutação — posição no gene e no transcrito afetado, tipo de evento (por exemplo, missense, nonsense, frameshift ou alterações de splicing) e impacto esperado na proteína. As saídas são calibradas para produzir probabilidades interpretáveis e úteis à priorização de variantes no estudo de oncologia de precisão.
 
 </div>
 
@@ -51,15 +51,11 @@
     - Oncologia: Auxiliar no tratamento do cancer de mama;
     - Proteômica: Estudo das estruturas e funções das proteínas;
     - Bioquímica Estrutural: Estrutura e funças das biomoléculas - Proteínas, aminoacidos e etc;
-    - Química Orgânica: Examina a estrutura e reatividade química dos aminoácidos.
-    - Redes Neurais Artificias: Uso de redes neurais artificiais para análise de combinações e de proteinas e aminoacidos.
-    - Estudos sobre como funciona o câncer de mama e seus tratamentos;
-    - Estudos sobre ia aplicadas para detecção de câncer;
-    - Relação de nutrição clinica avançada na área de oncologia no tratamento de pacientes com cancer / pós-cancer;
+    - Redes Neurais Artificias: Uso de redes neurais artificiais predição de patogenicide e potencial patogênico de mutações.
 
 <br>
 
-- **Problemas a Resolver**: Auxiliar na cura do cancer por meio do uso de inteligencia Artificial
+- **Problemas a Resolver**: A partir de dados públicos anotados, classificar e estimar a probabilidade de patogenicidade de variantes nos genes BRCA1/BRCA2, priorizando riscos e apoiando decisões no tratamento do câncer de mama.
 
 ## 3. Referências
 
